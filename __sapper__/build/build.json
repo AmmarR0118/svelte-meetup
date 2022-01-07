@@ -1,0 +1,31 @@
+{
+  "bundler": "rollup",
+  "shimport": "2.0.4",
+  "assets": {
+    "main": "client.a8409bb6.js"
+  },
+  "css": {
+    "main": [
+      "client-fa45f36f.css"
+    ]
+  },
+  "dependencies": {
+    "index.svelte": [
+      "index.6a74c89c.js",
+      "Button.da5e4a06.js",
+      "inject_styles.5607aec6.js",
+      "Button-4880cce8.css",
+      "index-c992a4fa.css"
+    ],
+    "[id].svelte": [
+      "_id_.45bf7035.js",
+      "Button.da5e4a06.js",
+      "inject_styles.5607aec6.js",
+      "Button-4880cce8.css",
+      "_id_-8adb7d88.css"
+    ]
+  },
+  "legacy_assets": {
+    "main": "client.792f342e.js"
+  }
+}
