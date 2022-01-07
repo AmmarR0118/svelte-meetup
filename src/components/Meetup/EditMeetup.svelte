@@ -60,7 +60,7 @@
 
     if (id) {
       fetch(
-        `https://meetups-e2e4b-default-rtdb.firebaseio.com/meetups/${id}.json`,
+        `<-- YOUR FIREBASE API -->`,
         {
           method: 'PATCH',
           headers: {
@@ -81,7 +81,7 @@
           console.log(err);
         });
     } else {
-      fetch('https://meetups-e2e4b-default-rtdb.firebaseio.com/meetups.json', {
+      fetch('<-- YOUR FIREBASE API -->', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -116,7 +116,7 @@
 
   function deleteMeetup() {
     fetch(
-      `https://meetups-e2e4b-default-rtdb.firebaseio.com/meetups/${id}.json`,
+      `<-- YOUR FIREBASE API -->`,
       { method: 'DELETE' }
     )
       .then((res) => {
