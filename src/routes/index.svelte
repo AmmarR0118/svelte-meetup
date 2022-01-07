@@ -1,7 +1,7 @@
 <script context="module">
   export function preload(page) {
     return this.fetch(
-      'https://meetups-e2e4b-default-rtdb.firebaseio.com/meetups.json'
+      '<-- YOUR FIREBASE API -->'
     )
       .then((res) => {
         if (!res.ok) {
