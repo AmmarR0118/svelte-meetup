@@ -3,7 +3,7 @@
     const meetupId = page.params.id;
 
     return this.fetch(
-      `https://meetups-e2e4b-default-rtdb.firebaseio.com/meetups/${meetupId}.json`
+      `<-- YOUR FIREBASE API -->`
     )
       .then((res) => {
         if (!res.ok) {
